@@ -61,7 +61,10 @@ const TemplateWrapper = ({ children }) => (
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/about">About</Link>
+              <a href="https://www.rayolaser.pe">RayoLaser</a>
+            </li>
+            <li>
+              <a href="https://docs.google.com/document/d/1O-M3HPytPWUrOtbjGhkhkfg_nwuS7fzJkSWXTVIkXLk/edit?usp=sharing">Currículum Vitae</a>
             </li>
           </ul>
           <p className="sidebar__social">
