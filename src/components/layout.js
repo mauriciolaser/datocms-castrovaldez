@@ -63,9 +63,6 @@ const TemplateWrapper = ({ children }) => (
             <li>
               <a href="https://www.rayolaser.pe">RayoLaser</a>
             </li>
-            <li>
-              <a href="https://docs.google.com/document/d/1O-M3HPytPWUrOtbjGhkhkfg_nwuS7fzJkSWXTVIkXLk/edit?usp=sharing">Currículum Vitae</a>
-            </li>
           </ul>
           <p className="sidebar__social">
             {data.allDatoCmsSocialProfile.edges.map(({ node: profile }) => (
@@ -87,7 +84,7 @@ const TemplateWrapper = ({ children }) => (
               <Link to="#" data-js="toggleSidebar" />
             </div>
             <div className="mobile-header__logo">
-              <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+              <a href="https://docs.google.com/document/d/1O-M3HPytPWUrOtbjGhkhkfg_nwuS7fzJkSWXTVIkXLk/edit?usp=sharing">{data.datoCmsSite.globalSeo.siteName}</a>
             </div>
           </div>
         </div>
