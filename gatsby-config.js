@@ -3,7 +3,6 @@ require('dotenv').config()
 module.exports = {
   siteMetadata: {
     title: `Mauricio CV`,
-    description: `Soy un sociólogo, educador y diseñador de videojuegos especializado en instrucción, investigación, y diseño y desarrollo de software educativo.`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
